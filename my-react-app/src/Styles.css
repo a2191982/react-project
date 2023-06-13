@@ -1,0 +1,268 @@
+body {
+  background-color: #171717;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.landing-top-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.landing-top-navigation-left {
+  font-family: "Inter", sans-serif;
+  color: #fafaf9;
+}
+
+.landing-top-navigation-right {
+  font-family: "Inter", sans-serif;
+  color: #fafaf9;
+}
+
+.landing-top-navigation-right-link {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.landing-body-container {
+  width: 1255px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.landing-body-left-content {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.landing-body-left-content-header {
+  font-size: 160px;
+  font-weight: 800;
+  color: #fafaf9;
+  z-index: 100;
+}
+
+.landing-body-left-content-paragraph {
+  width: 25vw;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: rgba(239, 237, 232, 0.65);
+  z-index: 100;
+  margin-top: 20px;
+}
+
+.landing-body-left-content-cta {
+  width: 200px;
+  height: 70px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  background-color: #e6533c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fafaf9;
+  border-radius: 10px;
+  z-index: 100;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.landing-body-right-content {
+  width: 20vw;
+  display: flex;
+  position: relative;
+}
+
+.landing-body-right-content-image {
+  position: absolute;
+  z-index: 200;
+  top: 100px;
+}
+
+.landing-body-right-content-left-bottom-card {
+  width: 150px;
+  position: absolute;
+  z-index: 300;
+  top: 460px;
+  left: -70px;
+}
+
+.landing-body-right-content-right-top-card {
+  width: 150px;
+  position: absolute;
+  z-index: 300;
+  top: 100px;
+  right: 30px;
+}
+
+.landing-body-right-content-right-bottom-card {
+  width: 150px;
+  position: absolute;
+  z-index: 300;
+  top: 550px;
+  right: 10px;
+}
+
+.landing-bottom-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.landing-bottom-description {
+  color: rgba(239, 237, 232, 0.65);
+}
+
+.landing-bottom-company-list {
+  width: 700px;
+  margin-top: 20px;
+}
+
+.landing-card {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 10px;
+  padding-bottom: 30px;
+  background-color: #323443;
+  margin-right: 20px;
+}
+
+div.landing-card:nth-child(1) {
+  background-color: #323443;
+}
+
+div.landing-card:nth-child(2) {
+  background-color: #232532;
+}
+
+div.landing-card:nth-child(3) {
+  background-color: #323443;
+}
+
+div.landing-card:nth-child(4) {
+  background-color: #4f5261;
+}
+
+.landing-card-header {
+  color: #fafaf9;
+}
+
+.landing-card-left-content {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-card-description {
+  width: 170px;
+  font-size: 14px;
+  color: rgba(239, 237, 232, 0.65);
+}
+
+.landing-card-right-content {
+  margin-top: 75px;
+}
+
+.landing-card-pointer {
+  width: 20px;
+  height: 20px;
+}
+
+.landing-page-footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.landing-page-footer-heading {
+  color: #fafaf9;
+}
+
+.landing-page-footer-description {
+  color: rgba(239, 237, 232, 0.65);
+}
+
+.landing-page-footer-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  margin-top: 50px;
+}
+
+.landing-page-end-container {
+  margin-top: 200px;
+}
+
+.landing-page-end-header {
+  color: #fafaf9;
+  font-size: 50px;
+}
+
+.landing-page-end-divider {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.landing-page-end-cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.landing-page-end-card {
+  width: 45%;
+  height: 640px;
+  background-color: #232532;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.landing-page-end-card:last-child {
+  background-color: #323443;
+}
+
+.landing-page-end-card-heading {
+  color: #fafaf9;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.landing-page-end-card-description {
+  width: 400px;
+  display: block;
+  text-align: justify;
+  font-family: "Inter", sans-serif;
+  color: rgba(239, 237, 232, 0.65);
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-bottom: 10px;
+}
+
+.landing-page-end-list-container {
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  color: rgba(239, 237, 232, 0.65);
+}
+
+.landing-page-end-list-container > ul {
+  padding-inline-start: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
