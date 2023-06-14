@@ -2,13 +2,14 @@ body {
   background-color: #171717;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .landing-top-navigation {
-  width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 50px;
 }
@@ -19,6 +20,7 @@ body {
 }
 
 .landing-top-navigation-right {
+  max-height: 100%;
   font-family: "Inter", sans-serif;
   color: #fafaf9;
 }

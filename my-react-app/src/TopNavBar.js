@@ -19,11 +19,10 @@ const links = [
 ];
 
 function TopNavBar() {
-  const linkList = links.map((link) => (
+  let linkList = [];
+  return (linkList = links.map((link) => (
     <span className="landing-top-navigation-right-link">{link}</span>
-  ));
-
-  return <span>{linkList}</span>;
+  )));
 }
 
 export default TopNavBar;
