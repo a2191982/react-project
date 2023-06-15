@@ -31,7 +31,15 @@ function LandingPageBody() {
             className="landing-body-right-content-left-bottom-card"
             src={VidTutorial}
             alt="Video Tutorials"
+            usemap="#blockmap"
           />
+          <map name="blockmap">
+            <area
+              shape="circle"
+              coords="33,35,15"
+              className="landing-body-right-content-left-bottom-card-clicktest"
+            />
+          </map>
           <img
             className="landing-body-right-content-right-top-card"
             src={KMrun}

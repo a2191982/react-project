@@ -1,6 +1,7 @@
 import "./Styles.css";
 import Divider from "./Images/divider.png";
 import ListPopulator from "./ListPopulator";
+import Pointer from "./Images/pointer.png";
 
 const JoinForFreeList = [
   { id: 1, description: "~600 Full-Length Workout Videos" },
@@ -45,6 +46,14 @@ function Membership() {
             <span className="landing-page-end-list-container">
               <ListPopulator listitems={JoinForFreeList} />
             </span>
+            <span className="landing-page-end-link">
+              See more{" "}
+              <img
+                src={Pointer}
+                className="landing-page-end-pointer"
+                alt="Pointer"
+              ></img>
+            </span>
           </div>
           <div className="landing-page-end-card">
             <span className="landing-page-end-card-heading">WO Plus</span>
@@ -56,8 +65,21 @@ function Membership() {
             <span className="landing-page-end-list-container">
               <ListPopulator listitems={WOPlusList} />
             </span>
+            <span className="landing-page-end-link">
+              <button className="landing-page-end-join-now-button">
+                Join Club Now!
+              </button>
+            </span>
           </div>
         </div>
+        <button className="landing-page-end-back-to-top-button">
+          <span>
+            <a href="#landing-top-nav" className="back-to-top-link">
+              Back to Top{" "}
+            </a>
+          </span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
       </div>
     </>
   );

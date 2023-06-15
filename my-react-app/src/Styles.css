@@ -94,6 +94,10 @@ body {
   left: -70px;
 }
 
+.landing-body-right-content-left-bottom-card-clicktest {
+  cursor: pointer;
+}
+
 .landing-body-right-content-right-top-card {
   width: 150px;
   position: absolute;
@@ -202,6 +206,8 @@ div.landing-card:nth-child(4) {
 
 .landing-page-end-container {
   margin-top: 200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .landing-page-end-header {
@@ -240,7 +246,8 @@ div.landing-card:nth-child(4) {
   font-weight: 600;
   font-size: 40px;
   margin-top: 70px;
-  margin-bottom: 30px;
+  display: block;
+  height: 100px;
 }
 
 .landing-page-end-card-description {
@@ -256,6 +263,7 @@ div.landing-card:nth-child(4) {
 
 .landing-page-end-list-container {
   width: 400px;
+  height: 300px;
   display: flex;
   justify-content: flex-start;
   color: rgba(239, 237, 232, 0.65);
@@ -267,4 +275,54 @@ div.landing-card:nth-child(4) {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+}
+
+.landing-page-end-link {
+  width: 400px;
+  display: block;
+  color: #0070c9;
+  position: relative;
+  cursor: pointer;
+}
+
+.landing-page-end-join-now-button {
+  width: 150px;
+  height: 30px;
+  background-color: #0070c9;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fafaf9;
+  cursor: pointer;
+}
+
+.landing-page-end-pointer {
+  position: absolute;
+  top: 2px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.landing-page-end-back-to-top-button {
+  width: 150px;
+  height: 40px;
+  align-self: flex-end;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 200px;
+  background: #fafaf9;
+  box-shadow: 0px 4px 9px rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+}
+
+.back-to-top-link:link {
+  text-decoration: none;
+  color: #303030;
+}
+
+.back-to-top-link:visited {
+  text-decoration: none;
+  color: #303030;
 }
